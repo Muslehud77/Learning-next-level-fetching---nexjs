@@ -1,0 +1,41 @@
+{
+    "posts": [
+  {
+    "id": 1,
+    "title": "Introduction to JSON",
+    "description": "JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is based on key-value pairs and supports various data types.",
+    "likes_count": 100
+  },
+  {
+    "id": 2,
+    "title": "Working with APIs",
+    "description": "APIs (Application Programming Interfaces) allow different software systems to communicate with each other. JSON is commonly used as a format for data exchange in API requests and responses.",
+    "likes_count": 85
+  },
+  {
+    "id": 3,
+    "title": "Data Serialization",
+    "description": "Serialization is the process of converting complex data structures into a format that can be easily stored or transmitted. JSON provides a straightforward way to serialize data.",
+    "likes_count": 120
+  },
+  {
+    "id": 4,
+    "title": "JSON Schema",
+    "description": "JSON Schema is a vocabulary for validating the structure of JSON data. It defines the types of data and their constraints, ensuring data integrity and consistency.",
+    "likes_count": 75
+  },
+  {
+    "id": 5,
+    "title": "Parsing JSON in JavaScript",
+    "description": "JavaScript provides built-in methods like JSON.parse() to parse JSON strings into JavaScript objects, enabling manipulation and utilization of the data.",
+    "likes_count": 150
+  },
+  {
+    "id": 6,
+    "title": "JSON Web Tokens (JWT)",
+    "description": "JWT is a compact, URL-safe means of representing claims to be transferred between two parties. It is commonly used for authentication and information exchange in web development.",
+    "likes_count": 95
+  }
+]
+
+}
