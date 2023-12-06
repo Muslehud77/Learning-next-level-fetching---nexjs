@@ -11,9 +11,18 @@ const Users = () => {
     
 
     return (
-        <div>
-            
-        </div>
+      <div className="grid grid-cols-3 gap-10 mt-10">
+        {users.map((user) => (
+          <div key={user.id} className="card w-96 bg-base-100 shadow-xl">
+            <div className="card-body">
+              <h2 className="card-title">{user.name}</h2>
+              <p>{user.email}</p>
+             
+              
+            </div>
+          </div>
+        ))}
+      </div>
     );
 };
 

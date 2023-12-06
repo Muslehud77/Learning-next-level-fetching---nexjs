@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-
+import style from './Posts.module.css'
 const PostsPage = async () => {
 
     const res = await fetch("http://localhost:7000/posts",{
@@ -11,7 +11,7 @@ const PostsPage = async () => {
 
     return (
       <div className="container mx-auto">
-        <h1 className="text-5xl text-center mt-5">
+        <h1 className={style.header_text}>
           Posts SSR Server Side Rendering : {posts.length}
         </h1>
         <div className="grid grid-cols-3 gap-10 mt-5">
