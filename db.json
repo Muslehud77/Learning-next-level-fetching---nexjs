@@ -10,7 +10,7 @@
     "id": 2,
     "title": "Working with APIs",
     "description": "APIs (Application Programming Interfaces) allow different software systems to communicate with each other. JSON is commonly used as a format for data exchange in API requests and responses.",
-    "likes_count": 85
+    "likes_count": 87
   },
   {
     "id": 3,
