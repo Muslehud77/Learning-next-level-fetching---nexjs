@@ -4,7 +4,7 @@
     "id": 1,
     "title": "Introduction to JSON",
     "description": "JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is based on key-value pairs and supports various data types.",
-    "likes_count": 100
+    "likes_count": 1000
   },
   {
     "id": 2,
